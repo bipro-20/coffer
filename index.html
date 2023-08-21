@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Website Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle">
+
+        </div>
+        <header>
+            <a href="#"><img src="./bipro12.jpg" alt="" width="100px" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee <br>Its <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo rem alias, natus vero,
+                    impedit vitae fuga ea non iste, reiciendis adipisci. Iure voluptas aut obcaecati nihil, repellendus
+                    non distinctio.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="./Starbucks-Coffee-PNG-Transparent.png" width="75%" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./img/thumb1.png" onclick="imgSlider('img1.png')"></li>
+            <li><img src="./img/thumb2.png" onclick="imgSlider('img2.png')"></li>
+            <li><img src="./img/thumb2.png" onclick="imgSlider('img2.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"></a><img src="./img2/facebook1.png" width="100px"></li>
+            <li><a href="#"></a><img src="./img2/733635.png" width="100px"></li>
+            <li><a href="#"></a><img src="./img2/1400829.png" width="100px"></li>
+
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.starbucks').src = anything;
+        }
+    </script>
+
+</body>
+
+</html>
